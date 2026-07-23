@@ -17,12 +17,18 @@ body{
         width: 100%;
         padding: 8px;
         margin: 10px;
+        border-raduis:8px;
     }
 
     button{
         width:100%;
         padding: 10px;
+        cursor:pointer;
     }
+    button:hover{
+        background-color:darkblue;
+    }
+        
     
     .remember{
         display: flex;
