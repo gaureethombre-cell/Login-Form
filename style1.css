@@ -1,0 +1,46 @@
+body{
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+    .login-box{
+        width: 320px;
+        background-color: white;
+        padding: 40px;
+        border-radius: 30px;
+        box-shadow:0 5px 15px gray;
+    }   
+
+    input{
+        width: 100%;
+        padding: 8px;
+        margin: 10px;
+    }
+
+    button{
+        width:100%;
+        padding: 10px;
+    }
+    
+    .remember{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    
+    .remember input{
+        width: auto;
+    }
+
+    button{
+        background-color: blue;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+
+
+
